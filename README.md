@@ -39,7 +39,6 @@ qvm-pool add -o revisions_to_keep=1 -o dir_path="${TMP_DIR}" shadowy file
 qvm-create "${QUBE_NAME}" -P shadowy -t "${TEMP}" -l red --property netvm="${NET_VM}" --property memory="${MEM}"
 qvm-run -a "${QUBE_NAME}" "${BROWSER}"
 wait
-#qvm-run -a --pass-io --no-gui "${QUBE_NAME}" 'while pidof torbrowser; do sleep 1; done'
 
 qvm-kill "${QUBE_NAME}"
 qvm-remove -f "${QUBE_NAME}"
