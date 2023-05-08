@@ -44,7 +44,7 @@ qvm-kill "${QUBE_NAME}"
 qvm-remove -f "${QUBE_NAME}"
 qvm-pool rm shadowy
 sudo umount shadowy
-sudo rm -rf /home/user/tmp \
+sudo rm -rf "${TMP_DIR}" \
         /var/log/libvirt/1ibx1/new.log \
         /var/log/libvirt/1ibx1/new.log.old \
         /var/log/qubes/vm-new.log \
