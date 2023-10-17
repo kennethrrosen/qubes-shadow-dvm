@@ -5,7 +5,7 @@ Inspired by Unman's [Really Disposable Qubes](https://github.com/unman/notes/blo
 As Unman notes: 
 > None of this is forensically reliable, although it is better than using a standard pool. (Refer to this [issue](https://github.com/QubesOS/qubes-issues/issues/4972), particularly if you are using Xfce, and check the associated issues.) There's an effort to remove most of the log references, although the stupidity of journalctl means that you'll have to wipe the journal if you want to delete references there.
 
-I've provided the script below for easy perusal; also included in the repo for an easy clone. You can also make a simple `dom0` script as well as add to your taskbar,
+I've provided the script below for easy perusal; also included in the repo for an easy clone. You can also make a simple `dom0` script as well as add to your taskbar. Here's another varient that [sends logs to /dev/null]( https://forum.qubes-os.org/t/really-disposable-ram-based-qubes/21532).
 
 ### shadow-qube
 
