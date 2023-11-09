@@ -1,6 +1,6 @@
 # QubesOS Truly Disposable Qube for Secure Browsing
 
-Inspired by Unman's [Really Disposable Qubes](https://github.com/unman/notes/blob/master/Really_Disposable_Qubes.md) scripts. Run in dom0. The below script will create a Qube, launch the Tor browser, wait for the browser to close, then remove the quebes and its RAM pool. The qube is built in a new RAM-based storage pool and disappears once the script deletes the RAM disk.
+Inspired by Unman's [Really Disposable Qubes](https://github.com/unman/notes/blob/master/Really_Disposable_Qubes.md) scripts. Run in dom0. The below script will create a Qube, launch the Tor browser, wait for the browser to close, then remove the qube and its RAM pool. The qube is built in a new RAM-based storage pool and disappears once the script deletes the RAM disk.
 
 As Unman notes: 
 > None of this is forensically reliable, although it is better than using a standard pool. (Refer to this [issue](https://github.com/QubesOS/qubes-issues/issues/4972), particularly if you are using Xfce, and check the associated issues.) There's an effort to remove most of the log references, although the stupidity of journalctl means that you'll have to wipe the journal if you want to delete references there.
